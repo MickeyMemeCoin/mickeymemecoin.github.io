@@ -8,28 +8,28 @@ import { HeroHeader, ContentSection } from "@/types/contents"
  ==================== */
 
 export const heroHeader: HeroHeader = {
-  header: `Landing pages made easy`,
-  subheader: `Easy to setup. Customizable. Quick. Responsive.`,
+  header: `Introducing Mickey Meme`,
+  subheader: `100 Years later and the world famous MICKEY is entering public domain.s`,
   image: `/hero-img.webp`,
 }
 
 export const featureCards: ContentSection = {
-  header: `Powered by`,
-  subheader: `What makes Next Landing possible`,
+  header: `What is $MICKEY?`,
+  subheader: ``,
   content: [
     {
-      text: `Next.js`,
-      subtext: `The React Framework`,
+      text: `Fans`,
+      subtext: `Real Life Experiences & Community`,
       image: `/next.svg`,
     },
     {
-      text: `shadcn/ui`,
-      subtext: `Beautifully designed components`,
+      text: `Films`,
+      subtext: `Creatively designed entertainment`,
       image: `/shadcn-ui.svg`,
     },
     {
-      text: `Vercel`,
-      subtext: `Develop. Preview. Ship.`,
+      text: `Mickey`,
+      subtext: `Acquire, Trade, Redeem.`,
       image: `/vercel.svg`,
     },
   ],
