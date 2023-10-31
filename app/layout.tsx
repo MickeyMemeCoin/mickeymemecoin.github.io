@@ -54,6 +54,7 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
+
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${inter.className} flex min-h-screen flex-col bg-background text-primary`}
@@ -73,5 +74,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       </body>
     </html>
+
   )
 }

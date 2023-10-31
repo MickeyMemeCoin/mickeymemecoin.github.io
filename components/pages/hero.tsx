@@ -3,11 +3,24 @@ import Image from "next/image"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { heroHeader } from "@/config/contents"
+import { Unipop } from "./Unipop"
 
 export default function HeroHeader() {
   return (
     <section className="container flex flex-col gap-4 pb-12 pt-4 text-center lg:items-center lg:gap-8 lg:py-20">
       <div className="flex flex-1 flex-col items-center gap-4 text-center lg:gap-8">
+      {heroHeader.image !== "" ? (
+        <div className="flex flex-1 justify-center lg:justify-end">
+          <Image
+            src={heroHeader.image}
+            width={250}
+            height={250}
+            alt="Header image"
+          />
+        </div>
+      ) : (
+        <></>
+      )}
         <div className="space-y-4">
           <h1 className="text-4xl font-bold lg:text-6xl">
             {heroHeader.header}
@@ -16,26 +29,17 @@ export default function HeroHeader() {
             {heroHeader.subheader}
           </h2>
         </div>
-        <Link
+        {/* <Link
           href="https://github.com/redpangilinan/next-shadcn-landing"
           target="_blank"
           className={`w-[10rem] ${cn(buttonVariants({ size: "lg" }))}`}
         >
           Get started
-        </Link>
+        </Link> */}
+        <Unipop />
+        
       </div>
-      {heroHeader.image !== "" ? (
-        <div className="flex flex-1 justify-center lg:justify-end">
-          <Image
-            src={heroHeader.image}
-            width={500}
-            height={500}
-            alt="Header image"
-          />
-        </div>
-      ) : (
-        <></>
-      )}
+      
     </section>
   )
 }
