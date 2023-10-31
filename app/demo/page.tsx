@@ -1,5 +1,6 @@
 import "./page.css";
 
+
 export default function Home() {
   return (
     <main>
@@ -9,7 +10,7 @@ export default function Home() {
           <div className="section2_firstChild">
             <div>
               <h1>$MICKEY</h1>
-              <img src="./images/coin.png" alt="Italian Trulli" />
+              <img src="/images/coin.png" alt="Italian Trulli" />
             </div>
             <p>Introducing Mickey's Movie Meme Coin:</p>
             <p>Your Ultimate Entertainment Experience Utility Coin!</p>
@@ -33,7 +34,7 @@ export default function Home() {
               </div>
             </div>
             <div className="section2_secondChild_secondSibling">
-              <img src="./images/updatedMickey.png" />
+              <img src="/images/updatedMickey.png" />
             </div>
           </div>
         </div>
@@ -43,7 +44,7 @@ export default function Home() {
 
       <section className="public_domain_sectiondiv">
         <div className="public_domain_imgdiv">
-          <img src="./images/mugImg.png" />
+          <img src="/images/mugImg.png" />
         </div>
         <div className="public_domain_textdiv">
           <h1>Public Domain</h1>
@@ -69,7 +70,7 @@ export default function Home() {
           </div>
         </div>
         <div className="about_popcorn_imgdiv">
-          <img src="./images/popCornImg.png" />
+          <img src="/images/popCornImg.png" />
         </div>
       </section>
 
@@ -130,8 +131,6 @@ export default function Home() {
                 <li>
                   A host of stars and influencers willing to be involved, and thus publicise & promote.
                 </li>
-
-
               </ul>
             </div>
           </div>
@@ -162,8 +161,7 @@ export default function Home() {
             One of our forthcoming movies for early 2024 is a high-octane, glossy, A-list cast, big budget crypto heist thriller set in Dubai. It’s perfect serendipity. The movie will feature the Mickey Meme Coin throughout and, when it is released globally next year, will act as a two-hour promotional advertisement for our token.
           </p>
         </div>
-        <img src="./images/airplane.png" className="airplane_img" />
-
+        <img src="/images/airplane.png" className="airplane_img" />
       </section>
 
 
@@ -178,8 +176,7 @@ export default function Home() {
         </div>
         <div className="aim_points_div">
           <div className="aim_points_img">
-            <img src="./images/aimDivimg.png" />
-
+            <img src="/images/aimDivimg.png" />
           </div>
           <div className="aim_div_points_parent_div">
             <div className="aim_single_div">
@@ -241,7 +238,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="awards_section_right_div">
-            <img src="./images/awards_mickey.png" />
+            <img src="/images/awards_mickey.png" />
           </div>
         </div>
       </section>
@@ -259,7 +256,7 @@ export default function Home() {
             <i>The Heckler</i> is an independent comedy and homage to stand-up comedians. It revolves around a character who goes off the rails, following a heart-breaking split, only to redeem himself through a number of comical situations and characters. The production is set for release in 2024 and has signed LOIs from influencers with a combined following of 20m+.
           </p>
         </div>
-        <img src="./images/hecklerframe.png" />
+        <img src="/images/hecklerframe.png" />
       </section>
 
       {/* <!-- video section --> */}
