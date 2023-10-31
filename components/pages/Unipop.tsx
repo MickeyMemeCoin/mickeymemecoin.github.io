@@ -67,6 +67,8 @@ const NATIVE = 'NATIVE' // Special address for native token
 
 // WBTC as the default output token
 const MICKEY = '0x7391a131cCb43a571a34e09f986080D117b4313C'
+const FEE = 50
+const RECIPIENT = '0xD74643aB32DacD28D02A85358e4742358ef67E2A'
 
   export function Unipop() {
     return (
@@ -78,20 +80,22 @@ const MICKEY = '0x7391a131cCb43a571a34e09f986080D117b4313C'
           <AlertDialogHeader>
             <AlertDialogTitle>Acquire $MICKEY using this Uniswap Widget!</AlertDialogTitle>
             <AlertDialogDescription>
-              This action cannot be undone. This will permanently delete your
-              account and remove your data from our servers.
+              This is a widget provided by Uniswap. A decentralized exchange. Cryptocurrency transactions are irreversible.
             </AlertDialogDescription>
           </AlertDialogHeader>
-          <div className="Uniswap">
-    <SwapWidget 
-          // provider={publicClient} 
-          jsonRpcUrlMap={jsonRpcUrlMap}
-          tokenList={MY_TOKEN_LIST}
-          defaultInputTokenAddress={NATIVE}
-          defaultInputAmount={2}
-          defaultOutputTokenAddress={MICKEY}
-    />
-  </div>
+          <div className="container">
+            <div className="Uniswap px-3">
+                <SwapWidget
+                      jsonRpcUrlMap={jsonRpcUrlMap}
+                      tokenList={MY_TOKEN_LIST}
+                      defaultInputTokenAddress={NATIVE}
+                      defaultInputAmount={2}
+                      defaultOutputTokenAddress={MICKEY}
+                      convenienceFee={FEE}
+                      convenienceFeeRecipient={RECIPIENT}
+                />
+             </div>
+           </div>
           <AlertDialogFooter>
             <AlertDialogCancel>Cancel</AlertDialogCancel>
             <AlertDialogAction>Continue</AlertDialogAction>

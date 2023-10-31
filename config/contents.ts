@@ -9,7 +9,7 @@ import { HeroHeader, ContentSection } from "@/types/contents"
 
 export const heroHeader: HeroHeader = {
   header: `Introducing Mickey Meme`,
-  subheader: `100 Years later and the world famous MICKEY is entering public domain.s`,
+  subheader: `100 Years later and the world famous MICKEY is entering public domain`,
   image: `/hero-img.webp`,
 }
 
