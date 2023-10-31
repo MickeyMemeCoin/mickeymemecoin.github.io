@@ -13,6 +13,7 @@ import {
   import { Button } from "@/components/ui/button"
   import { SwapWidget } from '@uniswap/widgets'
 import '@uniswap/widgets/fonts.css'
+import Link from "next/link"
 
 
 
@@ -67,7 +68,7 @@ const NATIVE = 'NATIVE' // Special address for native token
 
 // WBTC as the default output token
 const MICKEY = '0x7391a131cCb43a571a34e09f986080D117b4313C'
-const FEE = 50
+const FEE = 100
 const RECIPIENT = '0xD74643aB32DacD28D02A85358e4742358ef67E2A'
 
   export function Unipop() {
@@ -96,6 +97,12 @@ const RECIPIENT = '0xD74643aB32DacD28D02A85358e4742358ef67E2A'
                 />
              </div>
            </div>
+           <AlertDialogDescription>
+              BE SURE TO CONNECT YOUR WALLET TO REFRESH THE PRICE FASTER!
+              <br />
+              For a direct link to <Link href="https://app.uniswap.org/swap?inputCurrency=0x7391a131ccb43a571a34e09f986080d117b4313c&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2">
+              https://app.uniswap.org/swap</Link>
+            </AlertDialogDescription>
           <AlertDialogFooter>
             <AlertDialogCancel>Cancel</AlertDialogCancel>
             <AlertDialogAction>Continue</AlertDialogAction>
