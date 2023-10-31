@@ -91,7 +91,7 @@ body {
         background-position: center;
         background-size: contain;
         /* height: 120rem; */
-        background-image: url("./images/hollywoodimg.png");
+        background-image: url("/images/hollywoodimg.png");
         background-repeat: no-repeat;
         z-index: -8;
         /* clip-path: url(#clipPath);  */
@@ -411,7 +411,7 @@ body {
     background-position: center;
     background-size: cover;
     /* height: 120rem; */
-    background-image: url("./images/hollywoodimg.png");
+    background-image: url("/images/hollywoodimg.png");
     background-repeat: no-repeat;
     z-index: -8;
     /* clip-path: url(#clipPath);  */
@@ -737,7 +737,7 @@ body {
 }
 
 .custom-ul {
-    list-style-image: url('./images/check_circle.png');
+    list-style-image: url('/images/check_circle.png');
 }
 
 .redBox h4 {
@@ -886,7 +886,7 @@ body {
 /* awards section  */
 
 .awards_section {
-    /* background: url("./images//awards_bg.png"); */
+    /* background: url("/images//awards_bg.png"); */
     background-repeat: no-repeat;
     width: 80%;
     margin: 10rem auto;
@@ -898,7 +898,7 @@ body {
     position: absolute;
     width: 80%;
     height: 60%;
-    background: url("./images/awards_bg.png");
+    background: url("/images/awards_bg.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -933,7 +933,7 @@ body {
 }
 
 .awards_section_left_div ul {
-    list-style-image: url('./images/black_check.png');
+    list-style-image: url('/images/black_check.png');
 
 }
 
@@ -1574,7 +1574,7 @@ body {
 /* awards section  */
 
 .awards_section {
-    /* background: url("./images//awards_bg.png"); */
+    /* background: url("/images//awards_bg.png"); */
     background-repeat: no-repeat;
     width: 80%;
     margin: 10rem auto;
