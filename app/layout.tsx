@@ -1,10 +1,10 @@
-import "./globals.css"
-import { siteConfig } from "@/config/site"
 import { Poppins } from "next/font/google"
 import Navbar from "@/components/layout/navbar"
 import Footer from "@/components/layout/footer"
-import { ThemeProvider } from "@/components/theme-provider"
 import { settings } from "@/config/settings"
+import { siteConfig } from "@/config/site"
+import { ThemeProvider } from "@/components/theme-provider"
+import "./globals.css"
 
 const inter = Poppins({ subsets: ["latin"], weight: '400', })
 
