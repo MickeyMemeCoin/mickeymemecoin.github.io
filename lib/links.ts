@@ -5,7 +5,8 @@ export const navLinks = [
   },
   {
     route: "Uniswap",
-    path: "https://app.uniswap.org/swap?inputCurrency=0x7391a131ccb43a571a34e09f986080d117b4313c&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    // path: "https://app.uniswap.org/swap?inputCurrency=0x7391a131ccb43a571a34e09f986080d117b4313c&outputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    path: "https://app.uniswap.org/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0x7391a131ccb43a571a34e09f986080d117b4313c",
   },
   {
     route: "Contract",

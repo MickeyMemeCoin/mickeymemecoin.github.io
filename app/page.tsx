@@ -35,7 +35,15 @@ export default function Home() {
                   </div>
 
                   <div className="mickey_box_inputsdiv">
-                    <button className="mickey_box_button">BUY $MICKEY</button>
+                    <a
+                      href="https://app.uniswap.org/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0x7391a131ccb43a571a34e09f986080d117b4313c"
+                      target="_blank"
+                      rel="norefer"
+                      type="button"
+                      className="mickey_box_button text-center"
+                    >
+                      BUY $MICKEY
+                    </a>
                     <input type="text" className="mickey_box_input" />
                   </div>
                 </div>
@@ -493,8 +501,24 @@ export default function Home() {
           of the Mickey token …
         </p>
         <div className="buyMickey-btn-section">
-          <button type="button" className="buyMickey-btn">Buy $MICKEY</button>
-          <button type="button" className="buyMickey-btn2">1</button>
+          <a
+            href="https://app.uniswap.org/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0x7391a131ccb43a571a34e09f986080d117b4313c"
+            target="_blank"
+            rel="norefer"
+            type="button"
+            className="buyMickey-btn"
+          >
+            Buy $MICKEY
+          </a>
+          <a
+            href="https://app.uniswap.org/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0x7391a131ccb43a571a34e09f986080d117b4313c"
+            target="_blank"
+            rel="norefer"
+            type="button"
+            className="buyMickey-btn2"
+          >
+            1
+          </a>
         </div>
       </section>
 

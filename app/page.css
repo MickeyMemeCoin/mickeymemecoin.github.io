@@ -30,6 +30,23 @@ body {
 }
 
 
+.custom-navbar h1 {
+    font-size: 3rem;
+    /* Adjust as necessary */
+}
+
+.custom-navbar a {
+    font-size: 2rem;
+    /* Adjust as necessary */
+}
+
+.custom-navbar svg {
+    width: 4rem;
+    height: 4rem;
+    /* Adjust as necessary */
+}
+
+
 @media only screen and (max-width: 768px) {
 
     /* navbar */
