@@ -23,12 +23,12 @@ export default function Navbar() {
   }, [navbar])
 
   return (
-    <header className="select-none">
+    <header className="custom-navbar select-none">
       <nav className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
         <div>
           <div className="flex items-center justify-between py-3 md:block md:py-5">
             <Link href="/" onClick={handleClick}>
-              <h1 className="text-2xl font-bold duration-200 lg:hover:scale-[1.10]" style={{ fontSize: "1.5rem", lineHeight: "2rem" }}>
+              <h1 className="font-bold duration-200 lg:hover:scale-[1.10]">
                 {siteConfig.name}
               </h1>
             </Link>
@@ -68,7 +68,7 @@ export default function Navbar() {
                   </svg>
                 )}
               </button>
-              <ModeToggle />
+              {/* <ModeToggle /> */}
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Navbar() {
             }`}
             style={{ width: "100%", maxWidth: "20rem" }}
           >
-            <ul className="flex flex-col items-center space-y-4 text-primary opacity-60 md:flex-row md:space-x-6 md:space-y-0" style={{ fontSize: "0.875rem", lineHeight: "1.25rem" }}>
+            <ul className="flex flex-col items-center space-y-4 text-primary opacity-60 md:flex-row md:space-x-6 md:space-y-0">
               {navLinks.map((link) => (
                 <li key={link.route}>
                   <Link
@@ -95,8 +95,8 @@ export default function Navbar() {
           </div>
         </div>
         {settings.themeToggleEnabled && (
-          <div className="hidden md:block" style={{ fontSize: "0.875rem", lineHeight: "1.25rem" }}>
-            <ModeToggle />
+          <div className="hidden md:block">
+            {/* <ModeToggle /> */}
           </div>
         )}
       </nav>
