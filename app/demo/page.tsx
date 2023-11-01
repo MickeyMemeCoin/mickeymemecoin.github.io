@@ -483,8 +483,8 @@ export default function Home() {
           $MICKEY <br />
           <span className="buyMickey-header-span">
             BUY OUR $MICKEY (ERC-20) <br />
-            UTILITY COIN</span
-          >
+            UTILITY COIN
+          </span>
         </h1>
         <p className="buyMickey-text">
           Buy today, at launch, with more reveals later, including celebrity
