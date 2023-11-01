@@ -28,9 +28,8 @@ export default function Navbar() {
         <div>
           <div className="flex items-center justify-between py-3 md:block md:py-5">
             <Link href="/" onClick={handleClick}>
-              <h1 className="text-2xl font-bold duration-200 lg:hover:scale-[1.10]">
+              <h1 className="text-2xl font-bold duration-200 lg:hover:scale-[1.10]" style={{ fontSize: "1.5rem", lineHeight: "2rem" }}>
                 {siteConfig.name}
-                
               </h1>
             </Link>
             <div className="flex gap-1 md:hidden">
@@ -80,7 +79,7 @@ export default function Navbar() {
             }`}
             style={{ width: "100%", maxWidth: "20rem" }}
           >
-            <ul className="flex flex-col items-center space-y-4 text-primary opacity-60 md:flex-row md:space-x-6 md:space-y-0">
+            <ul className="flex flex-col items-center space-y-4 text-primary opacity-60 md:flex-row md:space-x-6 md:space-y-0" style={{ fontSize: "0.875rem", lineHeight: "1.25rem" }}>
               {navLinks.map((link) => (
                 <li key={link.route}>
                   <Link
@@ -96,7 +95,7 @@ export default function Navbar() {
           </div>
         </div>
         {settings.themeToggleEnabled && (
-          <div className="hidden md:block">
+          <div className="hidden md:block" style={{ fontSize: "0.875rem", lineHeight: "1.25rem" }}>
             <ModeToggle />
           </div>
         )}

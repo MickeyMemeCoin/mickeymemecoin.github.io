@@ -1,13 +1,12 @@
-import "./globals.css"
-import { siteConfig } from "@/config/site"
 import { Poppins } from "next/font/google"
 import Navbar from "@/components/layout/navbar"
 import Footer from "@/components/layout/footer"
-import { ThemeProvider } from "@/components/theme-provider"
 import { settings } from "@/config/settings"
+import { siteConfig } from "@/config/site"
+import { ThemeProvider } from "@/components/theme-provider"
+import "./globals.css"
 
-const inter = Poppins({ subsets: ["latin"],
-weight: '400', })
+const inter = Poppins({ subsets: ["latin"], weight: '400', })
 
 export const metadata = {
   metadataBase: new URL(siteConfig.url.base),
@@ -54,26 +53,24 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${inter.className} flex min-h-screen flex-col bg-background text-primary`}
       >
-        {settings.themeToggleEnabled ? (
-          <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-            <Navbar />
-            {children}
-            <Footer />
-          </ThemeProvider>
-        ) : (
-          <ThemeProvider attribute="class" forcedTheme="light" enableSystem>
-            <Navbar />
-            {children}
-            <Footer />
-          </ThemeProvider>
-        )}
+        <ThemeProvider
+          attribute="class"
+          enableSystem
+          {...(
+            settings.themeToggleEnabled ?
+              {defaultTheme: "light"} :
+              {forcedTheme: "light"}
+          )}
+        >
+          <Navbar />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
-
   )
 }
