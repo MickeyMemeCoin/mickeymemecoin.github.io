@@ -1,5 +1,5 @@
+import Image from "next/image";
 import "./page.css";
-
 
 export default function Home() {
   return (
@@ -10,9 +10,9 @@ export default function Home() {
           <div className="section2_firstChild">
             <div>
               <h1>$MICKEY</h1>
-              <img src="/images/coin.png" alt="Italian Trulli" />
+              <Image src="/images/coin.png" alt="Italian Trulli" />
             </div>
-            <p>Introducing Mickey's Movie Meme Coin:</p>
+            <p>Introducing Mickey&apos;s Movie Meme Coin:</p>
             <p>Your Ultimate Entertainment Experience Utility Coin!</p>
           </div>
           <div className="section2_secondChild">
@@ -34,7 +34,7 @@ export default function Home() {
               </div>
             </div>
             <div className="section2_secondChild_secondSibling">
-              <img src="/images/updatedMickey.png" />
+              <Image src="/images/updatedMickey.png" alt="Mickey" />
             </div>
           </div>
         </div>
@@ -44,12 +44,12 @@ export default function Home() {
 
       <section className="public_domain_sectiondiv">
         <div className="public_domain_imgdiv">
-          <img src="/images/mugImg.png" />
+          <Image src="/images/mugImg.png" alt="Coffee Mug" />
         </div>
         <div className="public_domain_textdiv">
           <h1>Public Domain</h1>
           <p>
-            The world's most iconic animation character, Mickey Mouse, is falling
+            The world&apos;s most iconic animation character, Mickey Mouse, is falling
             into the public domain 100 years after its creation.
           </p>
         </div>
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
         <div className="about_popcorn_imgdiv">
-          <img src="/images/popCornImg.png" />
+          <Image src="/images/popCornImg.png" alt="Popcorn" />
         </div>
       </section>
 
@@ -161,7 +161,7 @@ export default function Home() {
             One of our forthcoming movies for early 2024 is a high-octane, glossy, A-list cast, big budget crypto heist thriller set in Dubai. It’s perfect serendipity. The movie will feature the Mickey Meme Coin throughout and, when it is released globally next year, will act as a two-hour promotional advertisement for our token.
           </p>
         </div>
-        <img src="/images/airplane.png" className="airplane_img" />
+        <Image src="/images/airplane.png" alt="Airplane" className="airplane_img" />
       </section>
 
 
@@ -176,7 +176,7 @@ export default function Home() {
         </div>
         <div className="aim_points_div">
           <div className="aim_points_img">
-            <img src="/images/aimDivimg.png" />
+            <Image src="/images/aimDivimg.png" alt="Mickey Steering the Ship" />
           </div>
           <div className="aim_div_points_parent_div">
             <div className="aim_single_div">
@@ -238,7 +238,7 @@ export default function Home() {
             </ul>
           </div>
           <div className="awards_section_right_div">
-            <img src="/images/awards_mickey.png" />
+            <Image src="/images/awards_mickey.png" alt="Steamboat Willie" />
           </div>
         </div>
       </section>
@@ -256,7 +256,7 @@ export default function Home() {
             <i>The Heckler</i> is an independent comedy and homage to stand-up comedians. It revolves around a character who goes off the rails, following a heart-breaking split, only to redeem himself through a number of comical situations and characters. The production is set for release in 2024 and has signed LOIs from influencers with a combined following of 20m+.
           </p>
         </div>
-        <img src="/images/hecklerframe.png" />
+        <Image src="/images/hecklerframe.png" alt="Movie Equipment" />
       </section>
 
       {/* <!-- video section --> */}
@@ -276,112 +276,112 @@ export default function Home() {
 
         <div className="image-gallery-parent">
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage1.svg"
               alt="Image1"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage2.svg"
               alt="Image2"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage3.svg"
               alt="Image3"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage4.svg"
               alt="Image4"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage5.svg"
               alt="Image5"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage6.svg"
               alt="Image6"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage7.svg"
               alt="Image7"
               className="large-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage8.svg"
               alt="Image8"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage9.svg"
               alt="Image9"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage10.svg"
               alt="Image10"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage11.svg"
               alt="Image11"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage12.svg"
               alt="Image12"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage13.svg"
               alt="Image13"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage14.svg"
               alt="Image14"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage15.svg"
               alt="Image15"
               className="small-image"
             />
           </div>
           <div className="image-gallery-child">
-            <img
+            <Image
               src="/images/GalleryImage16.svg"
               alt="Image16"
               className="small-image"
@@ -393,22 +393,22 @@ export default function Home() {
       {/* <!-- discord section --> */}
 
       <section className="discord-section">
-        <img src="/images/Discord-updated.svg" alt="discord" />
+        <Image src="/images/Discord-updated.svg" alt="discord" />
         <div className="joinnow-section">
           <button type="button" className="joinnow-btn">Join Now</button>
-          <img src="/images/Join-Now-btn-svg.svg" alt="joinnow" className="joinnow-img" />
+          <Image src="/images/Join-Now-btn-svg.svg" alt="joinnow" className="joinnow-img" />
         </div>
       </section>
 
       {/* <!-- twitter section --> */}
 
       <section className="twitter-section">
-        <img src="/images/Twitterbg.svg" alt="Twitter" />
+        <Image src="/images/Twitterbg.svg" alt="Twitter" />
         <div className="joinnow-section">
           <div className="blue-bg">
             <button type="button" className="joinnow-btn">Follow Us</button>
           </div>
-          <img src="/images/Join-Now-btn-svg.svg" alt="joinnow" className="joinnow-img" />
+          <Image src="/images/Join-Now-btn-svg.svg" alt="joinnow" className="joinnow-img" />
         </div>
       </section>
 
@@ -433,13 +433,13 @@ export default function Home() {
 
         <div className="poweredby-parent">
           <div className="poweredby-child">
-            <img src="/images/poweredby1.svg" alt="poweredby1" />
+            <Image src="/images/poweredby1.svg" alt="poweredby1" />
           </div>
           <div className="poweredby-child">
-            <img src="/images/poweredby2.svg" alt="poweredby2" />
+            <Image src="/images/poweredby2.svg" alt="poweredby2" />
           </div>
           <div className="poweredby-child rimage">
-            <img src="/images/R_Image.png" alt="poweredby3" />
+            <Image src="/images/R_Image.png" alt="poweredby3" />
           </div>
         </div>
       </section>
@@ -447,25 +447,25 @@ export default function Home() {
       {/* <!-- contactus --> */}
       <section className="contact-us">
         <div className="contact-logo-section">
-          <img src="/images/BlackMickeyLogo.svg" alt="MickeyLogo" />
-          <img src="/images/MickeySmily.svg" alt="MickeyLogo" />
+          <Image src="/images/BlackMickeyLogo.svg" alt="MickeyLogo" />
+          <Image src="/images/MickeySmily.svg" alt="MickeyLogo" />
         </div>
         <h1 className="contact-header">
           Your Ultimate Entertainment Experience Utility
         </h1>
         <a className="contactus-btn" href="mailto:hello@micketmeme.com">Contact Us</a>
         <div className="social-icons">
-          <img src="/images/fb.svg" alt="fb-icon" />
-          <img src="/images/dc.svg" alt="discord-icon" />
-          <img src="/images/twitter.svg" alt="twitter-icon" />
-          <img src="/images/telegram.svg" alt="telegram-icon" />
-          <img src="/images/insta.svg" alt="insta-icon" />
+          <Image src="/images/fb.svg" alt="fb-icon" />
+          <Image src="/images/dc.svg" alt="discord-icon" />
+          <Image src="/images/twitter.svg" alt="twitter-icon" />
+          <Image src="/images/telegram.svg" alt="telegram-icon" />
+          <Image src="/images/insta.svg" alt="insta-icon" />
         </div>
       </section>
 
       <section className="buyMickey-section-main">
         <div className="mickey-mouse-section">
-          <img
+          <Image
             src="/images/MickeyMouse.svg"
             alt="MickeyMouse"
             className="mickyMouse"
