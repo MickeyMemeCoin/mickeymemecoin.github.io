@@ -5,15 +5,12 @@ export default function Home() {
   return (
     <main className="demo_main">
       {/* <!-- holly wood section --> */}
-      <section className="banner_section">
+      {/* <section className="banner_section">
         <div className="email_div">
           <input type="text" placeholder="Enter Your Email Address" />
           <button>Get Started</button>
         </div>
-        {/* <!-- <img src="./images/hollywoodimg.png"/> --> */}
-        {/* <!-- <div  className="cutting_div"> --> */}
-        {/* <!-- <img src="./images//cutting.png" className="cutting_img"> --> */}
-      </section>
+      </section> */}
 
       {/* <!-- mickey section --> */}
       <section className="section2">
