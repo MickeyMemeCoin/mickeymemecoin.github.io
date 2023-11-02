@@ -25,7 +25,7 @@ export default function Footer() {
         <hr className="my-6 text-muted-foreground sm:mx-auto lg:my-8" />
         <span className="block text-sm text-muted-foreground sm:text-center">
           © {new Date().getFullYear()}{" "}
-          Copyright 2023 M&G Reservations Group Ltd. All Rights Reserved.
+          Copyright 2023 M&G Reservations Group Ltd. All Rights Reserved. | Contract: 0x7391a131cCb43a571a34e09f986080D117b4313C
         </span>
       </div>
     </footer>
